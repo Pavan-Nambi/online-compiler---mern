@@ -1,0 +1,29 @@
+{
+  "name": "online-compiler---mern",
+  "version": "1.0.0",
+  "description": "Online code compiler and editor for popular languages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavan-nambi/online-compiler---mern.git"
+  },
+  "author": "pavan-nambi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavan-nambi/online-compiler---mern/issues"
+  },
+  "homepage": "https://github.com/pavan-nambi/online-compiler---mern#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
